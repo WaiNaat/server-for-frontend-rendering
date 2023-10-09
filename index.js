@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 7942;
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: 'https://sparrow-frontend-rendering.vercel.app',
   credentials: true,
 }));
 
